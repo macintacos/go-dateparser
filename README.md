@@ -1,4 +1,4 @@
-> **Fork:** this is [markusmobius/go-dateparser](https://github.com/markusmobius/go-dateparser) with one change, building locale data on first use instead of at init, proposed upstream in [markusmobius/go-dateparser#25](https://github.com/markusmobius/go-dateparser/pull/25). Import it as `github.com/macintacos/go-dateparser`.
+> This is a fork of [markusmobius/go-dateparser](https://github.com/markusmobius/go-dateparser) with one change: it builds a locale's data the first time it's used, instead of compiling every locale's regexps at init. Import it as `github.com/macintacos/go-dateparser`.
 
 # Go-DateParser [![Go Reference][go-ref-icon]][go-ref]
 
