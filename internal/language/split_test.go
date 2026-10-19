@@ -6,9 +6,9 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/markusmobius/go-dateparser/internal/digit"
-	"github.com/markusmobius/go-dateparser/internal/regexp"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/digit"
+	"github.com/macintacos/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/strutil"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/data"
 	"github.com/spf13/cobra"
 	"github.com/zyedidia/generic/mapset"
 )

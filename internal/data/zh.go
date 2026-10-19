@@ -5,7 +5,7 @@ package data
 import (
 	"sync"
 
-	"github.com/markusmobius/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/regexp"
 )
 
 var (

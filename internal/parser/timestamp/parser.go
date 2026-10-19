@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/regexp"
-	"github.com/markusmobius/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/date"
+	"github.com/macintacos/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/setting"
 )
 
 var (

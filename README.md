@@ -1,3 +1,5 @@
+> **Fork:** this is [markusmobius/go-dateparser](https://github.com/markusmobius/go-dateparser) with one change, building locale data on first use instead of at init, proposed upstream in [markusmobius/go-dateparser#25](https://github.com/markusmobius/go-dateparser/pull/25). Import it as `github.com/macintacos/go-dateparser`.
+
 # Go-DateParser [![Go Reference][go-ref-icon]][go-ref]
 
 This package parses localized dates in string formats commonly found on web pages. It is a Go port of the [Python library][original] with the same name.

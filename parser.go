@@ -9,18 +9,18 @@ import (
 
 	"slices"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/digit"
-	"github.com/markusmobius/go-dateparser/internal/language"
-	"github.com/markusmobius/go-dateparser/internal/parser/absolute"
-	"github.com/markusmobius/go-dateparser/internal/parser/formatted"
-	"github.com/markusmobius/go-dateparser/internal/parser/nospace"
-	"github.com/markusmobius/go-dateparser/internal/parser/relative"
-	"github.com/markusmobius/go-dateparser/internal/parser/timestamp"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/macintacos/go-dateparser/date"
+	"github.com/macintacos/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/digit"
+	"github.com/macintacos/go-dateparser/internal/language"
+	"github.com/macintacos/go-dateparser/internal/parser/absolute"
+	"github.com/macintacos/go-dateparser/internal/parser/formatted"
+	"github.com/macintacos/go-dateparser/internal/parser/nospace"
+	"github.com/macintacos/go-dateparser/internal/parser/relative"
+	"github.com/macintacos/go-dateparser/internal/parser/timestamp"
+	"github.com/macintacos/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/timezone"
 )
 
 // Parser detects languages, translates date strings, and parses dates and times.

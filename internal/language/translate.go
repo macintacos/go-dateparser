@@ -6,11 +6,11 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/digit"
-	"github.com/markusmobius/go-dateparser/internal/regexp"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/digit"
+	"github.com/macintacos/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/strutil"
 )
 
 var rxRussianNumberPair = regexp.MustCompile(`\b(\d+)[\s\p{Z}]+(\d+)\b`)

@@ -4,7 +4,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/markusmobius/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/regexp"
 )
 
 var (

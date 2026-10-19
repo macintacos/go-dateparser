@@ -3,7 +3,7 @@ package common
 import (
 	"time"
 
-	"github.com/markusmobius/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/setting"
 )
 
 func ApplyMonthFromConfig(cfg *setting.Configuration, t time.Time, currentMonth ...time.Month) time.Time {

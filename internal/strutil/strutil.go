@@ -6,7 +6,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/markusmobius/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/regexp"
 	"golang.org/x/text/runes"
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"

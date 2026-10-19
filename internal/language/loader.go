@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/strutil"
 )
 
 var defaultLocaleLoaders = [...]func() ([]*data.LocaleData, error){

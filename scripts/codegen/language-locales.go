@@ -6,7 +6,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/data"
 	"github.com/zyedidia/generic/mapset"
 )
 

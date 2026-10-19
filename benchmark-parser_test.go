@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	dps "github.com/markusmobius/go-dateparser"
+	dps "github.com/macintacos/go-dateparser"
 )
 
 func BenchmarkParser_Parse(b *testing.B) {

@@ -8,10 +8,10 @@ import (
 
 	"slices"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/regexp"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/macintacos/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/timezone"
 )
 
 // Split splits the date string `str` using translations in locale data. If `keepFormatting` is

@@ -1,4 +1,4 @@
-module github.com/markusmobius/go-dateparser
+module github.com/macintacos/go-dateparser
 
 go 1.26.0
 

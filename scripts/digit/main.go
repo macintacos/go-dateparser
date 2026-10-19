@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/markusmobius/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/regexp"
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"
 )

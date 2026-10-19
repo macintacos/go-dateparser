@@ -5,9 +5,9 @@
 package dateparser
 
 import (
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/macintacos/go-dateparser/date"
+	"github.com/macintacos/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/timezone"
 )
 
 var defaultParser = &Parser{}

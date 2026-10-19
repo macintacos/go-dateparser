@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	dps "github.com/markusmobius/go-dateparser"
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	dps "github.com/macintacos/go-dateparser"
+	"github.com/macintacos/go-dateparser/date"
+	"github.com/macintacos/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/timezone"
 )
 
 var (

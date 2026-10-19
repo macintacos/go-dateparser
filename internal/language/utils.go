@@ -4,9 +4,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/strutil"
 )
 
 func mapSkippedTokens(cfg *setting.Configuration, ld *data.LocaleData) strutil.Dict {

@@ -3,8 +3,8 @@ package common
 import (
 	"time"
 
-	"github.com/markusmobius/go-dateparser/internal/dateutil"
-	"github.com/markusmobius/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/dateutil"
+	"github.com/macintacos/go-dateparser/internal/setting"
 )
 
 func ApplyDayFromConfig(cfg *setting.Configuration, t time.Time, currentDay ...int) time.Time {

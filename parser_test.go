@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	dps "github.com/markusmobius/go-dateparser"
-	"github.com/markusmobius/go-dateparser/date"
+	dps "github.com/macintacos/go-dateparser"
+	"github.com/macintacos/go-dateparser/date"
 	"github.com/stretchr/testify/assert"
 )
 

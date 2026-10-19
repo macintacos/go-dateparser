@@ -5,13 +5,13 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/digit"
-	"github.com/markusmobius/go-dateparser/internal/parser/absolute"
-	"github.com/markusmobius/go-dateparser/internal/parser/calendars"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/macintacos/go-dateparser/date"
+	"github.com/macintacos/go-dateparser/internal/digit"
+	"github.com/macintacos/go-dateparser/internal/parser/absolute"
+	"github.com/macintacos/go-dateparser/internal/parser/calendars"
+	"github.com/macintacos/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/timezone"
 )
 
 func Parse(cfg *setting.Configuration, str string) (date.Date, error) {

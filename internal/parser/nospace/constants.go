@@ -9,8 +9,8 @@ import (
 
 	"slices"
 
-	"github.com/markusmobius/go-dateparser/internal/dateutil"
-	"github.com/markusmobius/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/dateutil"
+	"github.com/macintacos/go-dateparser/internal/regexp"
 )
 
 var (

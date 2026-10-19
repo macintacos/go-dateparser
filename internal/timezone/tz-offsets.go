@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/markusmobius/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/regexp"
 )
 
 type OffsetData struct {

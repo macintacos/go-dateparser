@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/setting"
 )
 
 // DateOrder returns the component order for a language or locale.

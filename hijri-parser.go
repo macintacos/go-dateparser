@@ -3,8 +3,8 @@ package dateparser
 import (
 	"fmt"
 
-	"github.com/markusmobius/go-dateparser/date"
-	"github.com/markusmobius/go-dateparser/internal/parser/hijri"
+	"github.com/macintacos/go-dateparser/date"
+	"github.com/macintacos/go-dateparser/internal/parser/hijri"
 )
 
 // ParseHijri converts an absolute Hijri date in the Umm al-Qura calendar to a

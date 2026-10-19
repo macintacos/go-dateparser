@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/macintacos/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/timezone"
 	"github.com/stretchr/testify/assert"
 )
 

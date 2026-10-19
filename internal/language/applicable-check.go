@@ -6,11 +6,11 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/markusmobius/go-dateparser/internal/data"
-	"github.com/markusmobius/go-dateparser/internal/digit"
-	"github.com/markusmobius/go-dateparser/internal/setting"
-	"github.com/markusmobius/go-dateparser/internal/strutil"
-	"github.com/markusmobius/go-dateparser/internal/timezone"
+	"github.com/macintacos/go-dateparser/internal/data"
+	"github.com/macintacos/go-dateparser/internal/digit"
+	"github.com/macintacos/go-dateparser/internal/setting"
+	"github.com/macintacos/go-dateparser/internal/strutil"
+	"github.com/macintacos/go-dateparser/internal/timezone"
 )
 
 var applicabilityDictionaries sync.Map

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"time"
 
-	dps "github.com/markusmobius/go-dateparser"
+	dps "github.com/macintacos/go-dateparser"
 )
 
 func main() {

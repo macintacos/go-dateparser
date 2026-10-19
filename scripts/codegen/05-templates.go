@@ -206,7 +206,7 @@ import (
 	"slices"
 	"unicode/utf8"
 
-	"github.com/markusmobius/go-dateparser/internal/regexp"
+	"github.com/macintacos/go-dateparser/internal/regexp"
 )
 
 type LocaleData struct {

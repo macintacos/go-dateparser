@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/markusmobius/go-dateparser/date"
+	"github.com/macintacos/go-dateparser/date"
 )
 
 // ParseTime parses the specified string using one of the common time formats.
