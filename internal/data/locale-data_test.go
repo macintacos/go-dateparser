@@ -6,8 +6,17 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// zuNameAtStart is read before any test runs, because -count reruns tests in
+// one process, where zu is already built.
+var zuNameAtStart string
+
+func TestMain(m *testing.M) {
+	zuNameAtStart = zu_Locale.Name
+	m.Run()
+}
+
 func TestGetLocaleData_BuildsLocaleOnFirstRequest(t *testing.T) {
-	assert.Empty(t, zu_Locale.Name)
+	assert.Empty(t, zuNameAtStart)
 
 	locale, ok := GetLocaleData("zu")
 
